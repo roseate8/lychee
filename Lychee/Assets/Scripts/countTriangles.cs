@@ -30,8 +30,8 @@ public class countTriangles : MonoBehaviour
     void Start()
     {
         vcount = obj.GetComponent<MeshFilter>().sharedMesh.vertexCount;
-        subcount = obj.GetComponent<MeshFilter>().sharedMesh.triangles.Length/3;
-        tcount = obj.GetComponent<MeshFilter>().sharedMesh.subMeshCount;
+        tcount = obj.GetComponent<MeshFilter>().sharedMesh.triangles.Length/3;
+        subcount = obj.GetComponent<MeshFilter>().sharedMesh.subMeshCount;
         Debug.Log("Vertices: " + vcount);
         Debug.Log("Triangles: " + tcount);
         Debug.Log("Submeshes: " + subcount);

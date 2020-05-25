@@ -397,6 +397,9 @@ MonoBehaviour:
   subdivCompute: {fileID: 7200000, guid: 8952c95e085a02544bff9c3aac03e0ef, type: 3}
   details: 1
   weld: 0
+  subdivisionLevel: {fileID: 0}
+  myText: {fileID: 0}
+  yourButton: {fileID: 0}
 --- !u!1 &460129263 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2534866581884222612, guid: 0d573ff06c571664cbe7773cde21e5e7,
@@ -418,6 +421,9 @@ MonoBehaviour:
   subdivCompute: {fileID: 7200000, guid: 8952c95e085a02544bff9c3aac03e0ef, type: 3}
   details: 2
   weld: 0
+  subdivisionLevel: {fileID: 0}
+  myText: {fileID: 0}
+  yourButton: {fileID: 0}
 --- !u!1 &675932059
 GameObject:
   m_ObjectHideFlags: 0
