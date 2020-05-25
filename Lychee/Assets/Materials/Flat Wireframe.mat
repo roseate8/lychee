@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Flat Wireframe
   m_Shader: {fileID: 4800000, guid: fbe5388c068b944d8ad5def744058faf, type: 3}
   m_ShaderKeywords: 
@@ -86,7 +87,7 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _WireframeSmoothing: 1
-    - _WireframeThickness: 1
+    - _WireframeThickness: 0
     - _WireframeWidth: 1
     - _ZWrite: 1
     m_Colors:
