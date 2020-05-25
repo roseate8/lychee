@@ -15,14 +15,14 @@ demo scene:
     Just an empty object to count the triangles in the mesh. Also calculates other mesh information
 2. UI
 
-2.1 
-Slider - referenced in the code GPUSubDivTest.cs and takes in value for subdivision level
+    2.1 
+    Slider - referenced in the code GPUSubDivTest.cs and takes in value for subdivision level
 
-2.2 
-Text - just prints out the same slider value. ble
+    2.2 
+    Text - just prints out the same slider value. ble
 
-2.3 
-Button - Click to apply that subdivision level. same script bs.
+    2.3 
+    Button - Click to apply that subdivision level. same script bs.
 
 3. importObject
     Has a script to import obj files. Open the script and update the file path for it to work. 
