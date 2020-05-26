@@ -29,7 +29,7 @@ namespace Subdiv.Demo
 
         }        
         void Update() {
-            myText.text = "Subdivison Level: " + subdivisionLevel.value;
+            myText.text = "Subdivison Level: " + Mathf.Floor(subdivisionLevel.value);
             details = (int)subdivisionLevel.value;
             // StartSubdivion(filter, source);
             // Button btn = yourButton.GetComponent<Button>(); 

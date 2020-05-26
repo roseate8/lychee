@@ -426,6 +426,7 @@ GameObject:
   - component: {fileID: 373964019}
   - component: {fileID: 373964016}
   - component: {fileID: 373964015}
+  - component: {fileID: 373964020}
   m_Layer: 0
   m_Name: SubdivisionSurface
   m_TagString: Untagged
@@ -524,6 +525,20 @@ MonoBehaviour:
   subdivisionLevel: {fileID: 1981999642}
   myText: {fileID: 1361633364}
   yourButton: {fileID: 1994013120}
+--- !u!136 &373964020
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373964014}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.3875339
+  m_Height: 3.9397163
+  m_Direction: 1
+  m_Center: {x: 0, y: -2.286676, z: 0.105761945}
 --- !u!1 &460129263 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2534866581884222612, guid: 0d573ff06c571664cbe7773cde21e5e7,
