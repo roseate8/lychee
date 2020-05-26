@@ -427,9 +427,10 @@ GameObject:
   - component: {fileID: 373964016}
   - component: {fileID: 373964015}
   - component: {fileID: 373964020}
+  - component: {fileID: 373964021}
   m_Layer: 0
   m_Name: SubdivisionSurface
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -539,6 +540,20 @@ CapsuleCollider:
   m_Height: 3.9397163
   m_Direction: 1
   m_Center: {x: 0, y: -2.286676, z: 0.105761945}
+--- !u!64 &373964021
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373964014}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: a320d667d0e3b52439dffcfef786d0e2, type: 3}
 --- !u!1 &460129263 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2534866581884222612, guid: 0d573ff06c571664cbe7773cde21e5e7,
@@ -883,6 +898,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1051635177 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8244981747390911274, guid: 74271cc62d1f9164f8f5a1494adde0f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1205592228}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1051635180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051635177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f89ea72f370da54d8b22cba83247b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectableTag: Selectable
 --- !u!1 &1157408720
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,7 +1135,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 'Subdivison Level:'
 --- !u!222 &1361633365
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1201,7 +1235,7 @@ GameObject:
   - component: {fileID: 1904252606}
   m_Layer: 0
   m_Name: importObject
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1219,6 +1253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flatWireframe: {fileID: 4800000, guid: fbe5388c068b944d8ad5def744058faf, type: 3}
+  modelPath: E:/Downloads/card.obj
   wireframe: {fileID: 2100000, guid: ded45655b37c844f78924db6ac91045b, type: 2}
 --- !u!4 &1904252607
 Transform:
