@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace Subdiv.Demo
 {
@@ -15,26 +16,21 @@ namespace Subdiv.Demo
         MeshFilter filter;
         Mesh source;
         public Slider subdivisionLevel;
-        public Text myText;
-        // public bool isApplybutton;
+        // public Text myText;
+        [SerializeField] TextMeshProUGUI m_Object;
         public Button yourButton;
 
 		void Start()
         {
-            // Button btn = yourButton.GetComponent<Button>();
             filter = GetComponent<MeshFilter>();
             source = filter.mesh;
             // StartSubdivion();
             yourButton.onClick.AddListener(StartSubdivion);
-
         }        
         void Update() {
-            myText.text = "Subdivison Level: " + Mathf.Floor(subdivisionLevel.value);
+            m_Object.text = "Subdivison Level: " + Mathf.Floor(subdivisionLevel.value);
             details = (int)subdivisionLevel.value;
-            // StartSubdivion(filter, source);
-            // Button btn = yourButton.GetComponent<Button>(); 
-            // yourButton.onClick.AddListener(StartSubdivion);
-
+            // StartSubn.onClick.AddListener(StartSubdivion);
         }
         public void StartSubdivion()
         {
